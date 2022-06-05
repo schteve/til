@@ -33,7 +33,7 @@ Git may complain that there are unrelated histories, which you can ignore:
 > `git merge existing-files-branch-name --allow-unrelated-histories`
 
 Now the branches are finished and just need to be pushed to the Github server.
-> `git push -u origin base`\
+> `git push -u origin base:base`\
 > `git push -u origin review`
 
 Last, go to Github, create the PR from `review` -> `base` and add your comments to it!
