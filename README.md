@@ -10,6 +10,7 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 
 - [git](#git)
 - [GitHub](#github)
+- [Rust](#rust)
 
 ## Git
 
@@ -21,3 +22,6 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 
 ## GitHub
 - [Review existing code on Github](github/review-existing-code.md)
+
+## Rust
+- [Use README in docs](rust/use-readme-in-docs.md)
