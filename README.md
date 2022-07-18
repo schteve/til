@@ -11,6 +11,7 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 - [git](#git)
 - [GitHub](#github)
 - [Rust](#rust)
+- [rust-analyzer](#rust-analyzer)
 
 ## Git
 
@@ -25,3 +26,6 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 
 ## Rust
 - [Use README in docs](rust/use-readme-in-docs.md)
+
+## Rust analyzer
+- [Can't find crate for `test`](rust-analyzer/cant-find-crate-test.md)
