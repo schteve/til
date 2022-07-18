@@ -25,6 +25,7 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 - [Review existing code on Github](github/review-existing-code.md)
 
 ## Rust
+- [Default generic parameters for structs](rust/default-generic-parameters-structs.md)
 - [Use README in docs](rust/use-readme-in-docs.md)
 
 ## Rust analyzer
