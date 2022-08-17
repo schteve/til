@@ -9,4 +9,5 @@ You might encounter an error where it seems that git is trying to work with file
 The reason this happens it that the wildcard character `*` is expanded by the terminal, not by git. So it passes a name to git that git knows it should ignore, hence why git errors out. The solution is to be more specific about what you want to do (e.g. `git restore README.md`). At least in the case of restore, it seems that using `.` instead of `*` also works for when you want to restore everything.
 
 # References
+- https://stackoverflow.com/questions/38451525/git-error-did-not-match-any-files-known-to-git
 - https://stackoverflow.com/questions/11456403/stop-shell-wildcard-character-expansion
