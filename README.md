@@ -22,6 +22,7 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 - [Rebase the first commit](git/rebase-first-commit.md)
 
 ## GitHub
+- [Generate personal access token](github/generate-token.md)
 - [Review existing code on Github](github/review-existing-code.md)
 
 ## Rust
