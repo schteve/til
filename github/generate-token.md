@@ -6,7 +6,7 @@ GitHub wants you to use tokens to access private repositories (and other access-
 2. Developer settings, all the way at the bottom
 3. Personal access tokens, at the bottom again
 
-If you just want to read/write code then `repo` scope should be sufficient.
+If you just want to read/write code then `repo` scope should be sufficient. If your repo has Github workflows in it then you will need the `workflow` scope as well.
 
 To use the generated token, see [Use token instead of password](/git/token-instead-password.md).
 
