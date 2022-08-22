@@ -29,6 +29,7 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 
 ## Rust
 - [Default generic parameters for structs](rust/default-generic-parameters-structs.md)
+- [Enable feature on sub-dependency](rust/enable-feature-sub-dependency.md)
 - [Use README in docs](rust/use-readme-in-docs.md)
 
 ## Rust analyzer
