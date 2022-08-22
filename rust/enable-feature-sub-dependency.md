@@ -16,7 +16,7 @@ However, you can just add the sub-dependency as a dependency and enable the feat
 openssl = { version = "*", features = ["vendored"] }
 ```
 
-In addition, if you want to expose this ability to the users of your crate, you can "forward" the feature. Mark the sub-dependency as optional, which means that dependency line (including the feature) isn't active by default. Then define a new feature which enables the feature you want. The user can then control whether the dependency's feature through the new one.
+In addition, if you want to expose this ability to the users of your crate, or make it controllable from the build flags, you can "forward" the feature. Mark the sub-dependency as optional, which means that dependency line (including the feature) isn't active by default. Then define a new feature which enables the feature you want. The user can then control whether the dependency's feature through the new one.
 
 ```toml
 # Your crate
@@ -31,6 +31,11 @@ openssl = { version = "*", features = ["vendored"], optional = true }
 # The user's crate
 [dependencies]
 your-crate = { version = "1.2.3", features = ["static_ssl"] }
+```
+
+```sh
+# Build your crate from the command line
+$ cargo build --features openssl/vendored
 ```
 
 # References
