@@ -11,6 +11,8 @@ However, what if you want to enable a feature on a sub-dependency i.e. a depende
 
 However, you can just add the sub-dependency as a dependency and enable the feature there. Since Rust solves the dependency list to only compile each dependency once, you need this new dependency to be compatible with the sub-dependency's selected versions (note that features are *supposed* to be additive so you don't need to worry about matching those). The easiest way to do this is to just make the version `"*"` which matches any versions used in the sub-dependencies without adding additional restrictions (you could also just copy the version used in the sub-dependency but then if it ever gets updated you need to update your file... ain't nobody got time for that).
 
+Also note that when publishing a crate on [crates.io](crates.io), a crate with `"*"` [will be rejected](https://doc.rust-lang.org/cargo/faq.html#can-libraries-use--as-a-version-for-their-dependencies). A compromise is to match on the major version number instead e.g. `"1"`. Since major versions change rarely, this should still give a significant amount of time before needing to update.
+
 ```toml
 [dependencies]
 openssl = { version = "*", features = ["vendored"] }
