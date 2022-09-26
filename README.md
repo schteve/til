@@ -35,3 +35,6 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 
 ## Rust analyzer
 - [Can't find crate for `test`](rust-analyzer/cant-find-crate-test.md)
+
+## VS Code
+- [Select all word occurrences](vscode/select-all-word-occurrences.md)
