@@ -20,6 +20,7 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 - [Commit parts of change](git/commit-parts-of-change.md)
 - [Diff files as a 'directory compare'](git/diff-as-directory-compare.md)
 - [Error: pathspec 'x' did not match any files](git/error-pathspec-not-match-files.md)
+- [Merge repos while keeping history](git/merge-repos-keeping-history.md)
 - [Rebase the first commit](git/rebase-first-commit.md)
 - [Use token instead of password](git/token-instead-password.md)
 
