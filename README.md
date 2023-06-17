@@ -37,5 +37,8 @@ A collection of useful or interesting things which don't deserve a bigger writeu
 ## Rust analyzer
 - [Can't find crate for `test`](rust-analyzer/cant-find-crate-test.md)
 
+## VirtualBox
+- [Super slow on Windows 10](virtualbox/super-slow-windows-10.md)
+
 ## VS Code
 - [Select all word occurrences](vscode/select-all-word-occurrences.md)
