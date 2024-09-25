@@ -9,7 +9,11 @@ Aliases are controlled via configuration. Here are the ones I've found most usef
 - > `git config --global alias.d diff`
 - > `git config --global alias.dt difftool`
 - > `git config --global alias.dd 'difftool --dir-diff'`
-- > `git config --global alias.graph 'log --graph --oneline --all'`
+- > `git config --global alias.g 'log --graph --oneline'`
+- > `git config --global alias.ga 'log --graph --oneline --all'`
+- > `git config --global alias.rb 'rebase'`
+- > `git config --global alias.rbc 'rebase --continue'`
+- > `git config --global alias.rbi 'rebase -i --autosquash --rebase-merges'`
 - > `git config --global alias.s status`
 
 Remember that aliases are effectively a direct text substitution, meaning that they can be combined with the typical command parameters, for example with the `co` alias you can replace `git checkout -b my-branch` with `git co -b my-branch`
